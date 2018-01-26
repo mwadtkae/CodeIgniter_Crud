@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>
-Web CMS 🤖
+  CRUD Operation 🤖
 </title>
 	<script type="text/javascript" src="<?= base_url('assets/js/bootstrap.min.js ');?>"> </script>
 	<script type="text/javascript" src="<?= base_url('assets/js/jquery-3.2.1.min.js');?>"></script>
@@ -17,7 +17,7 @@ Web CMS 🤖
   <div class="container-fluid">
     <div class="navbar-header">
 
-      <a class="navbar-brand" href="#">Web CMS 🤖</a>
+      <a class="navbar-brand" href="#">CRUD Operation 🤖</a>
     </div>
 
 
