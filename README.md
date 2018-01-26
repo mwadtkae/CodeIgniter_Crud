@@ -5,8 +5,9 @@ CodeIgniter is one of most popular PHP framework. CRUD is one of the primary fun
 
 ## Installation
 
-
+```
 * Put the codee folder in ( C:\xampp\htdocs ) in htdocs
 * Find the .sql file in codee folder
 * Upload the databse in mysql
 * change the credential in db.php
+```
