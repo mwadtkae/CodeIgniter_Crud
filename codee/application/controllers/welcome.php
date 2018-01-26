@@ -127,6 +127,22 @@ class Welcome extends CI_Controller {
 
 	}
 
+	public function delete($id){
+
+		$this->load->model('qures');
+		if($post=$this->qures->deletepost($id)){
+
+			$this->session->set_flashdata('msg','Data Delete Successfully');
+		}
+
+		else {
+
+			$this->session->set_flashdata('msg',' Data not found');
+		}
+
+		return redirect('welcome');
+	}
+
 
 }
 
