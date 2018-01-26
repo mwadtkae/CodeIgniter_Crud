@@ -44,6 +44,12 @@ class qures extends CI_Controller {
                    ->update('tbl_posts',$data);
     }
 
+    public function deletepost($id){
+
+
+        return $this->db->delete('tbl_posts',['id'=>$id]);
+     }
+
 
 
 
