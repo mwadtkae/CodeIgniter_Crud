@@ -116,6 +116,17 @@ class Welcome extends CI_Controller {
 
 	}
 
+	public function view($id){
+
+
+		$this->load->model('qures');
+		$post=$this->qures->getsinglepost($id);
+		$this->load->view('view',['post'=>$post]);
+
+
+
+	}
+
 
 }
 
